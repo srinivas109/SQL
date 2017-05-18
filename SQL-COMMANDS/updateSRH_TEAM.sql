@@ -1,0 +1,3 @@
+ UPDATE SRH_TEAM
+SET POB = 'Pune'
+WHERE ID = 6;

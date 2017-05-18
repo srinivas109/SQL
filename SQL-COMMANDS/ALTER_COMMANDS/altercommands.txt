@@ -1,0 +1,22 @@
+ADD COLUMN>    ALTER TABLE table_name ADD column_name datatype;
+
+DROP COLUMN>   ALTER TABLE table_name DROP COLUMN column_name;
+
+DATA TYPE>     ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+
+NOT NULL>      ALTER TABLE table_name MODIFY column_name datatype NOT NULL;
+
+ADD UNIQUE COMSTRAINT>   ALTER TABLE table_name 
+                         ADD CONSTRAINT MyUniqueConstraint UNIQUE(column1, column2...);
+
+ADD CHECK CONSTRAINT>    ALTER TABLE table_name 
+                         ADD CONSTRAINT MyUniqueConstraint CHECK (CONDITION);
+
+ADD PRIMARY KEY>         ALTER TABLE table_name 
+                         ADD CONSTRAINT MyPrimaryKey PRIMARY KEY (column1, column2...);
+
+DROP CONSTRAINT>         ALTER TABLE table_name 
+                         DROP CONSTRAINT MyUniqueConstraint;
+
+DROP CONSTRAINT KEY>     ALTER TABLE table_name 
+                         DROP CONSTRAINT MyPrimaryKey;
